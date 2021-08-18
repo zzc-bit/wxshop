@@ -3,6 +3,7 @@ package com.platform.api;
 import com.platform.annotation.IgnoreAuth;
 import com.platform.entity.HelpIssueVo;
 import com.platform.entity.HelpTypeVo;
+import com.platform.entity.UserInfo;
 import com.platform.service.ApiHelpIssueService;
 import com.platform.service.ApiHelpTypeService;
 import com.platform.util.ApiBaseAction;
@@ -10,6 +11,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
